@@ -13,14 +13,19 @@ class Main {
 		while(y%100 == 0) {
 			y = scanner.nextInt();
 		}
+		
 		int result;
 		result = x * (y % 10);
 		System.out.println(result);
+		
 		result = x * ((y % 100) / 10);
 		System.out.println(result);
+		
 		result = x * (y / 100);
 		System.out.println(result);
+		
 		System.out.println(x * y);
 		
+		scanner.close();
 	}
 }
