@@ -16,14 +16,14 @@ class Main {
 		
 		if(H == 0 && M < 45) {
 			H = 23;
-            M = 45 - M;
+            		M = 45 - M;
 			M = 60 - M;
 		} else if(M < 45) {
 			H -= 1;
-            M = 45 - M;
+            		M = 45 - M;
 			M = 60 - M;
 		} else {
-            M -= 45;
+            		M -= 45;
         }
 		
 		System.out.println(H + " " + M);
