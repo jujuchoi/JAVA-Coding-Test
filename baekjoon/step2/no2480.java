@@ -21,7 +21,7 @@ class Main {
 		if(first == second && second == third && first == third) {
 			result = 10000 + first*1000;
 		} else if((first == second) || 
-				  (first == third)) {
+			  (first == third)) {
 			result = 1000 + first*100;
 		} else if(second == third){
 			result = 1000 + second*100;
