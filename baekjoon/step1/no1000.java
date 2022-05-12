@@ -7,5 +7,6 @@ public class Main{
         a = myScanner.nextInt();
         b = myScanner.nextInt();
         System.out.println(a+b);
+        myScanner.close();
     }
 }
